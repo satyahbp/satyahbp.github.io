@@ -1,2 +1,2 @@
 # satyahbp.github.io
-Repository to host project.
+Repository to host projects.
