@@ -1,0 +1,584 @@
+body{
+    color: rgba(255, 255, 255, 0.884);
+    background-color: rgba(17, 17, 17, 0.884);
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+header h1{
+    /* border: 1px solid green; */
+    padding: 8px 10px 7px 5px;
+    margin: 0px;
+    background-color: rgb(78, 66, 134);
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2{
+    /* display: inline-block; */
+    /* margin: 20px auto; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navlist{
+    /* border: 1px solid red; */
+    background-color: rgb(73, 63, 103);
+    display: flex;
+    /* width: 50%; */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navlist a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.navlist li{
+    list-style: none;
+    margin-right: 10px;
+    /* margin-left: 5px; */
+    padding: 4px 7px;
+
+}
+
+.navlist li:hover{
+    background-color: rgb(106, 87, 148);
+    cursor: pointer;
+}
+
+.info{
+    border: 2px solid rgba(0, 0, 0, 0.103);
+    background-color: rgb(46, 37, 82);
+    border-radius: 10px;  
+    width: 70%;
+    margin: 50px auto;
+    align-items: center;
+    padding: 20px;
+    /* overflow: auto; */
+}
+
+.info h3{
+    display: inline-block;
+    /* border: 1px solid red; */
+    background-color: rgb(40, 31, 77);
+    border-radius: 7px;
+    margin: 0px;
+    font-size: 20px;
+    padding: 5px ;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info h4{
+    text-align: center;
+}
+
+#basic_flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.basic_info{
+    margin: 5px;
+}
+
+#basic_table td{
+    /* border: 1px solid yellow; */
+    padding: 10px;
+    margin: 1px;
+    font-size: 25px;
+    /* font-size: 2vw; */
+}
+
+#main_image{
+    width: 22vw;
+    /* width: 300px; */
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.350);
+
+}
+
+#div_basic_table{
+    /* display: inline-block; */
+    background-color: rgb(64, 57, 92);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.350);
+    display: flex;
+    align-items: center;
+}
+
+#div_basic_table:hover{
+    background-color: rgb(75, 64, 112);
+    border: 1px solid rgba(0, 0, 0, 0.350);
+}
+
+#div_main_image{
+    /* display: inline-block; */
+    /* border: 1px solid blue; */
+} 
+
+#skill_flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill_div_ul{
+    border: 1px solid rgba(0, 0, 0, 0.350);
+    background-color: rgb(64, 57, 92);
+    border-radius: 10px;
+    padding: 30px 50px;
+    margin: 5px;
+    font-size: 25px;
+    /* border: 1px solid rgba(0, 0, 0, 0.350); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill_div_ul:hover{
+    background-color: rgb(75, 64, 112);
+    border: 1px solid rgba(0, 0, 0, 0.350);
+}
+
+.skill_div_ul ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#interest_flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.interest_div_ul{
+    border: 1px solid rgba(0, 0, 0, 0.350);
+    background-color: rgb(64, 57, 92);
+    border-radius: 10px;
+    padding: 30px 50px;
+    margin: 5px;
+    font-size: 25px;
+    /* border: 1px solid rgba(0, 0, 0, 0.350); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.interest_div_ul:hover{
+    background-color: rgb(75, 64, 112);
+    border: 1px solid rgba(0, 0, 0, 0.350);
+}
+
+.interest_div_ul ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#education_flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education_div{
+    border: 1px solid rgba(0, 0, 0, 0.350);
+    background-color: rgb(64, 57, 92);
+    border-radius: 10px;
+    padding: 30px 50px;
+    margin: 10px;
+    font-size: 25px;
+    /* border: 1px solid rgba(0, 0, 0, 0.350); */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.education_div:hover{
+    background-color: rgb(75, 64, 112);
+    border: 1px solid rgba(0, 0, 0, 0.350);
+}
+
+#course_flex{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.course_div{
+    border: 1px solid rgba(0, 0, 0, 0.350);
+    background-color: rgb(64, 57, 92);
+    border-radius: 10px;
+    padding: 30px 50px;
+    margin: 10px;
+    font-size: 25px;
+    /* border: 1px solid rgba(0, 0, 0, 0.350); */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.course_div p{
+    text-align: center;
+}
+
+.course_div:hover{
+    background-color: rgb(75, 64, 112);
+    border: 1px solid rgba(0, 0, 0, 0.350);
+}
+
+/* ---------------- CSS specifically for "More about Me!" page --------------- */
+
+.more_info{
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+#more_image{
+    width: 48vw;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.more_para{
+
+}
+
+.more_para a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+/* -------------- CSS Specifically for "Online Presence Page" ------------------ */
+
+#para_div{
+    display: flex;
+    justify-content: center;
+}
+
+#presence_div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95vw;
+}
+
+.presence_content{
+    margin: 5px;
+}
+
+#presence_content_texts{
+    font-size: 25px;
+}
+
+#presence_content_texts table tr td{
+    padding: 5px;
+}
+
+.buttons{
+    text-decoration: none;
+    border: none;
+    margin: 5px;
+    padding: 4px 4px 2px 4px;
+    background-color: rgb(100, 85, 156);
+    color:rgb(226, 226, 226);
+    border-radius: 3px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 13px;
+}
+
+.buttons:hover{
+    background-color: rgb(149, 128, 223);
+    cursor: pointer;
+}
+
+#presence_pic{
+    width: 50vw;
+}
+
+/* ----------------------------- media queries ----------------------------- */
+
+@media (max-width: 1050px) and (min-width: 851px){
+
+    /* media queries for presence.html  */
+    #presence_content_texts{
+        font-size: 20px;
+    }
+
+    .buttons{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 850px) and (min-width: 701px){
+
+    /* media queris for presence.html  */
+    #presence_content_texts{
+        font-size: 15px;
+    }
+
+    .buttons{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 601px){
+
+    /* media queris for presence.html  */
+    #presence_content_texts{
+        font-size: 13px;
+    }
+
+    .buttons{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 501px){
+
+    /* media queris for presence.html  */
+    #presence_content_texts{
+        font-size: 11px;
+    }
+
+    #presence_content_texts table tr td{
+        padding: 4px;
+    }
+
+    .buttons{
+        font-size: 7px;
+    }
+}
+
+@media (max-width:500px) and (min-width: 401px){
+
+    /* media queries for index.html  */
+
+    h2{
+        font-size: 25px;
+    }
+
+    .info{
+        margin: 45px auto;
+    }
+
+    .info h3{
+        font-size: 17px;
+    }
+
+    #basic_table td{
+        font-size: 20px;
+    }
+
+    .skill_div_ul{
+        font-size:20px
+    }
+
+    .interest_div_ul{
+        font-size: 20px;
+    }
+
+    .education_div{
+        font-size: 20px;
+    }
+
+    .course_div{
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    /* media queries for more.html  */
+    .more_para{
+        font-size: 14px;
+    }
+
+    /* media queries for presence.html  */
+    #para_div{
+        font-size: 14px;
+    }
+
+    #presence_content_texts{
+        font-size: 10px;
+    }
+
+    #presence_content_texts table tr td{
+        padding: 2px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+
+}
+
+@media (max-width:400px) and (min-width: 301px){
+
+    /* media queries for index.html  */
+    header h1{
+        font-size: 35px;
+    }
+
+    .navlist{
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .info{
+        margin: 35px auto;
+    }
+
+    .info h3{
+        font-size: 15px;
+    }
+
+    #basic_table td{
+        font-size: 15px;
+    }
+
+    .skill_div_ul{
+        font-size:15px
+    }
+
+    .interest_div_ul{
+        font-size: 15px;
+    }
+
+    .education_div{
+        font-size: 14px;
+    }
+
+    .course_div{
+        font-size: 15px;
+        padding: 30px 15px;
+    }
+
+    /* media queries for more.html  */
+    .more_para{
+        font-size: 13px;
+    }
+
+    /* media queries for presence.html  */
+    #para_div{
+        font-size: 13px;
+    }
+
+    #presence_div{
+        flex-flow: column wrap;
+    }
+
+    #presence_content_texts{
+        font-size: 16px;
+    }
+
+    #presence_content_texts table tr td{
+        padding: 2px;
+    }
+
+    .buttons{
+        font-size: 9px;
+    }
+
+    #presence_pic{
+        width: 70vw;
+    }
+}
+
+@media (max-width: 300px){
+
+    /* media queries for index.html  */
+    header h1{
+        font-size: 30px;
+    }
+
+    .navlist{
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    .info{
+        margin: 15px auto;
+    }
+
+    .info h3{
+        font-size: 12px;
+    }
+
+    #basic_table td{
+        font-size: 12px;
+    }
+
+    .skill_div_ul{
+        font-size:12px
+    }
+
+    .interest_div_ul{
+        font-size: 12px;
+    }
+
+    #education_flex{
+        flex-flow: column wrap;
+    }
+
+    .education_div{
+        font-size: 12px;
+        padding: 30px 10px ;
+    }
+
+    .course_div{
+        font-size: 12px;
+        padding: 30px 10px;
+    }
+
+    /* media queries for more.html  */
+    .more_para{
+        font-size: 12px;
+    }
+
+    /* media queries for presence.html  */
+    #para_div{
+        font-size: 13px;
+    }
+    #presence_div{
+        flex-flow: column wrap;
+    }
+
+    #presence_content_texts{
+        font-size: 13px;
+    }
+
+    #presence_content_texts table tr td{
+        padding: 3px;
+    }
+
+    .buttons{
+        font-size: 9px;
+    }
+
+    #presence_pic{
+        width: 70vw;
+    }
+}
+
