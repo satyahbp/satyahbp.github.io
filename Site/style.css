@@ -1,0 +1,231 @@
+/* ----------------Main CSS for all --------------- */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color:rgba(245, 245, 245, 0.774);
+    background-color: rgba(0, 0, 0, 0.884);
+    font-family: 'Nunito', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(29, 114, 153);
+    color: white;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+    top:0px;
+    z-index: 1000;
+}
+
+h1{
+    padding:0px 5px;
+    margin: 10px 3px;
+    width: 95vw;
+    display: inline-block;
+    font-family: 'Caveat', cursive;
+}
+
+h2{
+    font-family: 'Poiret One', cursive;
+    margin: 20px 10px;
+}
+
+footer{
+    margin: 20px;
+}
+
+.navbar{
+    
+}
+
+.navbar li{
+    list-style: none;
+    /* float:left; */
+    padding: 1px 5px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+}
+
+.navbar ul{
+    overflow:auto;
+    margin: 0px;
+    display: inline-block;
+    padding: 0px 5px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.liback{
+    border-radius: 3px;
+    transition: background-color 0.15s ease-in-out;
+}
+.liback:hover{
+    background-color:rgb(41, 133, 175);
+}
+
+.navlink{
+    text-decoration: none;
+    color: white;
+}
+
+.licourse{
+    padding:5px;
+    margin:3px;
+}
+
+.buttons{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    border: none;
+    margin: 5px;
+    padding: 4px 4px 2px 4px;
+    background-color: rgb(100, 85, 156);
+    color:rgb(226, 226, 226);
+    border-radius: 3px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 11px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.buttons:hover{
+    background-color: rgb(149, 128, 223);
+    cursor: pointer;
+}
+
+.main_content{
+    margin:10px;
+}
+
+.lime{
+    list-style: none;
+    padding:5px;
+    margin:3px;
+}
+
+.email{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    border: none;
+    margin: 5px;
+    padding: 4px 4px 2px 4px;
+    background-color: rgb(100, 85, 156);
+    color:rgb(226, 226, 226);
+    border-radius: 3px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 11px;
+    display: inline-block;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.email:hover{
+    background-color: rgb(149, 128, 223);
+    /* cursor: pointer; */
+}
+
+
+
+/* ------------------------------------- Media Queries ----------------------------- */
+@media (max-width: 500px) and (min-width: 451px){
+    h2{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 17px;
+    }
+
+    main li{
+        font-size: 17px;
+    }
+
+    .buttons{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 450px) and (min-width: 401px){
+    h2{
+        font-size: 19px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+
+    main li{
+        font-size: 16px;
+    }
+
+    .buttons{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 301px){
+    h2{
+        font-size: 17px;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+
+    main li{
+        font-size: 15px;
+    }
+
+    .buttons{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 300px) and (min-width: 251px){
+    h1{
+        font-size: 25px;
+    }
+
+    header li{
+        font-size: 13px;
+    }
+    
+    h2{
+        font-size: 16px;
+    }
+    
+    p{
+        font-size: 13px;
+    }
+
+    main li{
+        font-size: 13px;
+    }
+
+    .buttons{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 250px){
+    h2{
+        font-size: 17px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+
+    main li{
+        font-size: 14px;
+    }
+
+    .buttons{
+        font-size: 8px;
+    }
+}
