@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box  ;
+}
+
+body{
+    background: linear-gradient(rgb(55, 55, 87), rgb(8, 36, 71));
+}
+
+/* main .container{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+main .container::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(55, 55, 87), rgb(8, 36, 71));
+    z-index: -1;
+} */
+
+main .container h1{
+    font-family: 'Bangers', cursive;
+    margin: 10px 20px;
+}
+
+main .container > p{
+    margin: 0px 20px;
+}
+
+main .container .intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+main .container .intro .card{
+    position: relative;
+    width: 500px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+main .container .intro .card > div{
+    padding: 20px;
+}
+
+main .container .intro .card h2{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
+
+
+main .container .intro .card .image{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* ------adding images ------------- */
+main .container .intro .card #dinesh_image::before{
+    content: "";
+    position: absolute;
+    background: url(./our_pics/dinesh.jpeg);
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+main .container .intro .card #indra_image::before{
+    content: "";
+    position: absolute;
+    background: url(./our_pics/indra.jpeg);
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+main .container .intro .card #rik_image::before{
+    content: "";
+    position: absolute;
+    background: url(./our_pics/rik.jpeg);
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+main .container .intro .card #shiva_image::before{
+    content: "";
+    position: absolute;
+    background: url(./our_pics/shiva.jpeg);
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+main .container .intro .card #rocky_image::before{
+    content: "";
+    position: absolute;
+    background: url(./our_pics/rocky.JPG);
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------------------------------------- */
+
+main .container .intro .card .content{
+    /* padding: 0px; */
+}
+main .container .intro .card .content h3{
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+main .container .intro .card .content p{
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 10px 0px;
+}
+
+main .container .intro .card .content .social{
+    margin: 20px 0px 10px 0px;
+    text-align: left;
+    font-size: 18px;
+}
+
+main .container .intro .card .content .social > a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
