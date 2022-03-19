@@ -1,0 +1,26 @@
+#try_python{
+    background: #202c33;
+}
+
+#try_python_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 368px;
+}
+
+#try_python_text > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    font-size: 15px;
+    height: 350px;
+    list-style: "~$  " inside;
+    margin: 0px 5px 0px 7px;
+}
+
+#try_python_text > ul > p{
+    text-align: center;
+    font-size: 20px;
+}

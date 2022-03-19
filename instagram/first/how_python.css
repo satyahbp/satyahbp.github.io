@@ -1,0 +1,44 @@
+#how_python{
+    background: #202c33;
+}
+
+#creator_pic{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    /* width: 300px; */
+    height:200px;
+    /* border: 1px solid white */
+}
+
+#creator_pic_inner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 15px 0px 0px 0px;
+    height: 200px;
+    width: 500px;
+}
+
+#creator_pic_inner > img{
+    max-width: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+#how_python_text{
+    height: 168px;
+}
+
+#how_python_text > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    font-size: 13px;
+    height: 167px;
+    list-style: "~$  " inside;
+    margin: 0px 5px 0px 7px;
+}
