@@ -28,6 +28,39 @@
     border-radius: 3px;
 }
 
+#heading_neon{
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Poiret One', cursive;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    /* border: 1px solid yellow; */
+    
+    margin: 20px 0px 10px 0px;
+}
+
+#heading_neon_inner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+    height: 130px;
+    width: 400px;
+    font-size: 60px;
+    font-weight: 900;
+
+    color: rgba(32, 44, 51, 0.95);
+    text-shadow: 0 0 10px rgb(0, 162, 255), 
+        0 0 20px rgb(69, 186, 253), 
+        0 0 30px rgb(152, 222, 255),
+        0 0 40px rgb(239, 252, 255),
+        0 0 100px rgb(239, 253, 255),
+        0 0 200px rgb(255, 255, 255);
+}
+
 #why_python_text{
     height: 168px;
 }
